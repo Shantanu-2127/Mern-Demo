@@ -153,7 +153,7 @@ const WorkOrderCreation = () => {
 
       <div className="mb-7 ">
         <button
-          className={`px-20 py-2 mr-2 focus:outline-none${
+          className={`px-5 md:px-20  py-2 mr-2 focus:outline-none${
             activeTab === "overview"
               ? "text-black border-b-[3px] border-[#4FD1C5]"
               : "text-gray-500 hover:text-gray-700 border-b-[3px]"
@@ -163,7 +163,7 @@ const WorkOrderCreation = () => {
           Overview
         </button>
         <button
-          className={`px-20 py-2 focus:outline-none ${
+          className={`px-5 md:px-20 py-2 focus:outline-none ${
             activeTab === "other"
               ? "text-black border-b-[3px] border-[#4FD1C5]"
               : "text-gray-500 hover:text-gray-700 border-b-[3px]"
